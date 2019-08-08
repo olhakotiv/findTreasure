@@ -58,7 +58,7 @@ $('#map').click(function (event) {
     //add text in p element
     $('#distance').text(`${distanceHint} You clicked ${clicks} times. You have ${30 - clicks} clicks` );
 
-    //say to a player that he win
+    //say to a player that he won
     if (distance < 8) {
         alert(`You win! Found a treasure in ${clicks} clicks!`)
     }
