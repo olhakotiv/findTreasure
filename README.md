@@ -1,0 +1,2 @@
+# findTreasure
+Simple game
